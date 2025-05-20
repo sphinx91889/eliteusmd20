@@ -24,7 +24,12 @@ const PageTemplate: React.FC<PageMetaData> = ({
           name="robots"
           content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
         />
-        <link rel="canonical" href="https://www.eliteusmd.com/" />
+        <link rel="canonical" href="https://eliteusmd.com/" />
+
+        <meta 
+          property="og:image" 
+          content="https://storage.googleapis.com/msgsndr/AV0uABeJizFuDAswYLbY/media/67d9862e4a8459017cc831c4.png" 
+        />
 
         {/* Open Graph Meta Tags */}
         <meta property="og:locale" content="en_US" />
